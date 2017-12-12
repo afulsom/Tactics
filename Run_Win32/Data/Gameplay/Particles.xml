@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<ParticleEffect name="smoke">
+  <Emitter name="smoke">
+    <Particles perSecond="50.0" initial="0" lifetime="5.0"/>
+    <Movement>
+      <Position distributionType="circle" magnitudeRange="0.05,0.1"/>
+      <Velocity distributionType="cone" degreeRange="-15,15" magnitudeRange="0.5,1"/>
+      <Acceleration distributionType="sphere" magnitudeRange="0.025,0.1"/>
+    </Movement>
+    <Visuals tint="127,127,127" textureFilename="Data/Images/Blob.png" blend="alpha">
+      <Radius start="0.025" end="0.05" curve="linear"/>
+    </Visuals>
+  </Emitter>
+
+  <Emitter name="fire">
+    <Particles perSecond="500.0" initial="0" lifetime="3.0"/>
+    <Movement>
+      <Velocity distributionType="cone" degreeRange="-15,15" magnitudeRange="0.5,1"/>
+      <Acceleration distributionType="fixed" value="0"/>
+    </Movement>
+    <Visuals radius="0.05" textureFilename="Data/Images/Blob.png" blend="additive">
+      <Tint start="245,180,0" end="255,127,0" curve="smoothstop3"/>
+    </Visuals>
+  </Emitter>
+
+  <Emitter name="water">
+      <Particles perSecond="100.0" initial="0" lifetime="10.0"/>
+      <Movement>
+        <Velocity distributionType="cube" magnitude="0.5"/>
+        <Acceleration distributionType="fixed" value="0"/>
+      </Movement>
+      <Visuals blend="opaque">
+        <Radius start="3" end="0.25" curve="smoothstart3"/>
+        <Tint start="33,33,233" end="99,99,233" curve="smoothstart2"/>
+      </Visuals>
+    </Emitter>
+</ParticleEffect>-->
+
+
+<ParticleEffects>
+  <ParticleEffect name="smoke">
+    <Emitter name="smoke">
+      <Particles perSecond="50.0" initial="0" lifetime="5.0"/>
+      <Movement>
+        <Position distributionType="circle" magnitudeRange="0.05,0.1"/>
+        <Velocity distributionType="cone" degreeRange="-15,15" magnitudeRange="0.5,1"/>
+        <Acceleration distributionType="sphere" magnitudeRange="0.025,0.1"/>
+      </Movement>
+      <Visuals tint="127,127,127" textureFilename="Data/Images/Blob.png" blend="alpha">
+        <Radius start="0.025" end="0.05" curve="linear"/>
+      </Visuals>
+    </Emitter>
+
+    <Emitter name="fire">
+      <Particles perSecond="500.0" initial="0" lifetime="3.0"/>
+      <Movement>
+        <Velocity distributionType="cone" degreeRange="-15,15" magnitudeRange="0.5,1"/>
+        <Acceleration distributionType="fixed" value="0"/>
+      </Movement>
+      <Visuals radius="0.05" textureFilename="Data/Images/Blob.png" blend="additive">
+        <Tint start="245,180,0" end="255,127,0" curve="smoothstop3"/>
+      </Visuals>
+    </Emitter>
+
+    <!--<Emitter name="water">
+      <Particles perSecond="100.0" initial="0" lifetime="10.0"/>
+      <Movement>
+        <Velocity distributionType="cube" magnitude="0.5"/>
+        <Acceleration distributionType="fixed" value="0"/>
+      </Movement>
+      <Visuals blend="opaque">
+        <Radius start="3" end="0.25" curve="smoothstart3"/>
+        <Tint start="33,33,233" end="99,99,233" curve="smoothstart2"/>
+      </Visuals>
+    </Emitter>-->
+  </ParticleEffect>
+  
+  <ParticleEffect name="fire">
+    <Emitter name="fire" duration="0.25">
+      <Particles perSecond="500.0" initial="300" lifetime="0.7"/>
+      <Movement>
+        <Velocity distributionType="cone" degreeRange="-15,15" magnitudeRange="0.75,1.25"/>
+        <Acceleration distributionType="fixed" value="0"/>
+      </Movement>
+      <Visuals radius="0.05" textureFilename="Data/Images/Blob.png" blend="additive">
+        <Tint start="245,180,0" end="255,127,0" curve="smoothstop3"/>
+      </Visuals>
+    </Emitter>
+    
+    <Emitter name="smoke" duration="0.375">
+      <Particles perSecond="50.0" initial="10" lifetime="1.0"/>
+      <Movement>
+        <Position distributionType="circle" magnitudeRange="0.05,0.1"/>
+        <Velocity distributionType="cone" degreeRange="-15,15" magnitudeRange="0.5,1"/>
+        <Acceleration distributionType="sphere" magnitudeRange="0.025,0.05"/>
+      </Movement>
+      <Visuals tint="127,127,127" textureFilename="Data/Images/Blob.png" blend="alpha">
+        <Radius start="0.025" end="0.05" curve="linear"/>
+      </Visuals>
+    </Emitter>
+  </ParticleEffect>
+
+  <ParticleEffect name="bio">
+    <Emitter name="poison bubbles" duration="0.0">
+      <Particles perSecond="0.0" initial="75" lifetime="0.75"/>
+      <Movement>
+        <Position distributionType="fixed" value="0.0,1.0,0.0"/>
+        <Velocity distributionType="sphere" magnitudeRange="0.5,1.0"/>
+        <Acceleration distributionType="fixed" value="0"/>
+      </Movement>
+      <Visuals radius="0.05" textureFilename="Data/Images/Blob.png" blend="alpha">
+        <Tint start="68, 170, 81" end="73, 185, 96" curve="smoothstop3"/>
+      </Visuals>
+    </Emitter>
+  </ParticleEffect>
+
+  <ParticleEffect name="charm">
+    <Emitter name="burst" duration="0.0">
+      <Particles perSecond="0" initial="300" lifetime="0.5"/>
+      <Movement>
+        <Position distributionType="fixed" value="0.0,1.0,0.0"/>
+        <Velocity distributionType="sphere" magnitudeRange="0.45,0.5"/>
+        <Acceleration distributionType="fixed" value="0"/>
+      </Movement>
+      <Visuals radius="0.02" textureFilename="Data/Images/Blob.png" tint="255,105,180" blend="alpha">
+      </Visuals>
+    </Emitter>
+  </ParticleEffect>
+
+  <ParticleEffect name="cheapShot">
+    <Emitter name="burst" duration="0.0">
+      <Particles perSecond="0" initial="300" lifetime="0.5"/>
+      <Movement>
+        <Position distributionType="fixed" value="0.0,1.0,0.0"/>
+        <Velocity distributionType="sphere" magnitudeRange="0.45,0.5"/>
+        <Acceleration distributionType="fixed" value="0"/>
+      </Movement>
+      <Visuals radius="0.02" textureFilename="Data/Images/Blob.png" tint="255,255,51" blend="alpha">
+      </Visuals>
+    </Emitter>
+  </ParticleEffect>
+
+  <ParticleEffect name="cure">
+    <Emitter name="cure" duration="0.75">
+      <Particles perSecond="200.0" initial="0" lifetime="1.0"/>
+      <Movement>
+        <Position distributionType="circle" magnitudeRange="0.4,0.6"/>
+        <Velocity distributionType="fixed" value="0.0,2.0,0.0"/>
+        <Acceleration distributionType="fixed" value="0.0"/>
+      </Movement>
+      <Visuals tint="173,216,230" textureFilename="Data/Images/Blob.png" blend="alpha">
+        <Radius start="0.05" end="0.1" curve="linear"/>
+      </Visuals>
+    </Emitter>
+  </ParticleEffect>
+
+  <ParticleEffect name="wall">
+    <Emitter name="wall" duration="0.75">
+      <Particles perSecond="200.0" initial="0" lifetime="1.0"/>
+      <Movement>
+        <Position distributionType="circle" magnitudeRange="0.4,0.6"/>
+        <Velocity distributionType="fixed" value="0.0,2.0,0.0"/>
+        <Acceleration distributionType="fixed" value="0.0"/>
+      </Movement>
+      <Visuals tint="173,216,230" radius="0.1" blend="alpha">
+      </Visuals>
+    </Emitter>
+  </ParticleEffect>
+  
+</ParticleEffects>

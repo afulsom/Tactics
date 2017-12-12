@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Constants>
+  <BaseChanceToHit chance="0.8"/>
+  <ChanceToHitPerAgility chance="0.01"/>
+  <BaseCriticalChance chance="0.0"/>
+  <CriticalChancePerLuck chance="0.02"/>
+  <CriticalMultiplier multiplier="1.5"/>
+</Constants>

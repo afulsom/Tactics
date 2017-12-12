@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<AbilityDefinitions>
+
+  <AbilityDefinition name="Fire" range="5" radius="1" maxHeightDifference="5" areaMaxHeightDifference="2" power="20" speed="100" animType="spell" particleEffect="fire" effectDelay="0.8" sound="Data/Audio/Fire.mp3"/>
+ 
+  <AbilityDefinition name="Bio" range="5" radius="1" maxHeightDifference="5" areaMaxHeightDifference="2" power="10" speed="100" animType="spell" particleEffect="bio" effectDelay="0.8" sound="Data/Audio/Bio.mp3">
+    <StatusEffects>
+      <Poison duration="3"/>
+    </StatusEffects>
+  </AbilityDefinition>
+
+  <AbilityDefinition name="Charm" range="5" radius="0" maxHeightDifference="5" areaMaxHeightDifference="2" power="0" speed="100" animType="spell" particleEffect="charm" effectDelay="0.8" sound="Data/Audio/Charm.mp3">
+    <StatusEffects>
+      <Charm duration="2"/>
+    </StatusEffects>
+  </AbilityDefinition>
+  
+  <AbilityDefinition name="CheapShot" range="1" radius="0" maxHeightDifference="2" areaMaxHeightDifference="0" power="10" speed="100" animType="melee" particleEffect="cheapShot" effectDelay="0.8" sound="Data/Audio/CheapShot.mp3">
+    <StatusEffects>
+      <Confuse duration="1"/>
+    </StatusEffects>
+  </AbilityDefinition>
+
+  <AbilityDefinition name="Cure" range="5" radius="1" maxHeightDifference="5" areaMaxHeightDifference="2" power="-20" speed="100" animType="spell" particleEffect="cure" effectDelay="0.8" sound="Data/Audio/Cure.mp3"/>
+
+  <AbilityDefinition name="Wall" range="5" radius="1" maxHeightDifference="5" areaMaxHeightDifference="2" power="0" speed="100" animType="spell" particleEffect="wall" effectDelay="0.8" sound="Data/Audio/Wall.mp3">
+    <StatusEffects>
+      <Wall duration="5"/>
+    </StatusEffects>
+  </AbilityDefinition>
+
+</AbilityDefinitions>

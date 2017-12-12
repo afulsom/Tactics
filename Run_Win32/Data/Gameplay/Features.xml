@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Features>
+  <Feature name="chest" isSolid="true" glyph="c" glyphColor="255,255,255" fillColor="255,255,255"/>
+  <Feature name="StairsDown" isSolid="false" glyph="&lt;" glyphColor="255,255,255" fillColor="0,0,0">
+    <Exit destination="next" destinationTileType="stone floor" isTwoWay="true"/>
+  </Feature>
+  <Feature name="StairsUp" isSolid="false" glyph="&gt;" glyphColor="255,255,255" fillColor="0,0,0">
+    <Exit destination="previous" destinationTileType="stone floor" isTwoWay="true"/>
+  </Feature>
+</Features>

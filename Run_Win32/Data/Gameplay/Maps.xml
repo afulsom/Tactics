@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MapDefinitions>
+  
+  <MapDefinition name="test" dimensions="20,20" fillTile="grass"/>
+  
+</MapDefinitions>

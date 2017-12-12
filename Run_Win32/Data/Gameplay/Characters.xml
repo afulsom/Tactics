@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Characters>
+  <Character name="witch" minMove="4" maxMove="4" minJump="3" maxJump="3" minSpeed="20" maxSpeed="20" minAttack="5" maxAttack="5" minFaith="50" maxFaith="50" minHP="1" maxHP="30" faction="player"
+             attackRange="1" maxAttackHeightDifference="2"
+             spriteSheet="Data/Images/Witch.png" frontWalkAnim="1,2" backWalkAnim="8,9" frontInjuredAnim="6" backInjuredAnim="13" frontDeadAnim="14" backDeadAnim="21"
+             frontMeleeAnim="17,19" backMeleeAnim="24,26" meleeAnimDuration="0.75" meleeTimeBeforeHit="0.6"
+             frontSpellAnim="5,5" backSpellAnim="12,12" spellAnimDuration="1.0" spellTimeBeforeHit="0.8"
+             frontRangedAnim="18,19" backRangedAnim="25,26" rangedAnimDuration="1.0" rangedTimeBeforeHit="0.5"
+             frontHitAnim="3,3" backHitAnim="10,10" hitAnimDuration="0.2"
+             portrait="Data/Images/Witch_Portrait.png">
+    <Abilities>
+      <Fire/>
+      <Cure/>
+      <!--<Charm/> -->
+      <Wall/>
+      <Bio/>
+    </Abilities>
+
+    <Behaviors>
+      <Wait/>
+      <Attack utility="0.7"/>
+      <CloseToAttack/>
+      <Ability/>
+    </Behaviors>
+  </Character>
+
+  <Character name="berzerker" minMove="4" maxMove="4" minJump="4" maxJump="4" minSpeed="15" maxSpeed="15" minAttack="10" maxAttack="10" minFaith="50" maxFaith="50" minHP="40" maxHP="40" faction="player"
+             attackRange="1" maxAttackHeightDifference="2"
+             spriteSheet="Data/Images/Berzerker.png" frontWalkAnim="1,2" backWalkAnim="8,9" frontInjuredAnim="6" backInjuredAnim="13" frontDeadAnim="14" backDeadAnim="21"
+             frontMeleeAnim="17,19" backMeleeAnim="24,26" meleeAnimDuration="0.75" meleeTimeBeforeHit="0.6"
+             frontSpellAnim="5,5" backSpellAnim="12,12" spellAnimDuration="1.0" spellTimeBeforeHit="0.8"
+             frontRangedAnim="18,19" backRangedAnim="25,26" rangedAnimDuration="1.0" rangedTimeBeforeHit="0.5"
+             frontHitAnim="3,3" backHitAnim="10,10" hitAnimDuration="0.2"
+             portrait="Data/Images/Berzerker_Portrait.png">
+    <Abilities>
+      <Cure/>
+      <Bio/>
+    </Abilities>
+
+    <Behaviors>
+      <Wait/>
+      <Attack utility="0.7"/>
+      <CloseToAttack/>
+      <Ability/>
+    </Behaviors>
+  </Character>
+  
+</Characters>

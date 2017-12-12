@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Map>
+  <Legend>
+    <Tile glyph="," tile="grass"/>
+    <Tile glyph="#" tile="stone wall"/>
+    <Tile glyph="." tile="stone floor"/>
+  </Legend>
+
+  <Tiles dimensions="15,15">
+    <Row tiles="###############"/>
+    <Row tiles="#,,,,,,,,,,,,,#"/>
+    <Row tiles="#,,,,,,,,,,,,,#"/>
+    <Row tiles="#,,,,,,,,,,,,,#"/>
+    <Row tiles="#,,,,,,,,,,,,,#"/>
+    <Row tiles="#,,,,,,,,,,,,,#"/>
+    <Row tiles="#,,,,,,,,,,,,,#"/>
+    <Row tiles="#,,,,,,,,,,,,,#"/>
+    <Row tiles="#,,,,,,,,,,,,,#"/>
+    <Row tiles="#..........####"/>
+    <Row tiles="#..........####"/>
+    <Row tiles="#..........####"/>
+    <Row tiles="#..........####"/>
+    <Row tiles="#..........####"/>
+    <Row tiles="###############"/>
+  </Tiles>
+
+  <Characters>
+    <Character name="pixie" position="1,1"/>
+    <Character name="pixie" position="10,2"/>
+    <Character name="pixie" position="13,13"/>
+  </Characters>
+  
+  <Features>
+    <Feature name="chest" position="5,5"/>
+  </Features>
+
+  <Items>
+    <Item name="turtleneck sweater" position="7,7"/>
+  </Items>
+</Map>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ItemDefinitions>
+  <ItemDefinition name="dagger" glyph="/" glyphColor="255,255,255" fillColor="255,255,255"
+		minStrength="1" maxStrength="2"
+		minAgility="1" maxAgility="2"
+		minMagic="0" maxMagic="0"
+		minEndurance="0" maxEndurance="0"
+		minLuck="0" maxLuck="0"
+    minHP="0" maxHP="0">
+    <EquipSlot slot="primary"/>
+    <DamageTypes tags="steel"/>
+  </ItemDefinition>
+
+  <ItemDefinition name="turtleneck sweater" glyph="H" glyphColor="80,80,80" fillColor="255,255,255"
+		minStrength="0" maxStrength="0"
+		minAgility="0" maxAgility="0"
+		minMagic="0" maxMagic="0"
+		minEndurance="1" maxEndurance="1"
+		minLuck="0" maxLuck="0"
+    minHP="0" maxHP="0">
+    <EquipSlot slot="chest"/>
+  </ItemDefinition>
+
+  <ItemDefinition name="macguffin" glyph="M" glyphColor="255,215,0" fillColor="255,255,255"
+		minStrength="0" maxStrength="0"
+		minAgility="0" maxAgility="0"
+		minMagic="0" maxMagic="0"
+		minEndurance="0" maxEndurance="0"
+		minLuck="0" maxLuck="0"
+    minHP="0" maxHP="0">
+    <EquipSlot slot="none"/>
+  </ItemDefinition>
+
+  <ItemDefinition name="frostbrand" glyph="/" glyphColor="230,230,255" fillColor="255,255,255"
+  minStrength="1" maxStrength="2"
+  minAgility="1" maxAgility="2"
+  minMagic="0" maxMagic="0"
+  minEndurance="0" maxEndurance="0"
+  minLuck="0" maxLuck="0"
+  minHP="0" maxHP="0">
+    <EquipSlot slot="primary"/>
+    <DamageTypes tags="ice"/>
+  </ItemDefinition>
+
+  <ItemDefinition name="firebrand" glyph="/" glyphColor="255,210,210" fillColor="255,255,255"
+  minStrength="3" maxStrength="3"
+  minAgility="2" maxAgility="2"
+  minMagic="0" maxMagic="0"
+  minEndurance="0" maxEndurance="0"
+  minLuck="7" maxLuck="7"
+  minHP="0" maxHP="0">
+    <EquipSlot slot="primary"/>
+    <DamageTypes tags="fire"/>
+  </ItemDefinition>
+
+
+</ItemDefinitions>
